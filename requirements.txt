@@ -1,0 +1,25 @@
+discord.py
+discord
+python-dotenv
+audioop-lts; python_version>='3.13'
+pydub
+Flask
+PyNaCl
+aiohttp
+aiosignal
+attrs
+blinker
+cffi
+click
+colorama
+frozenlist
+idna
+itsdangerous
+Jinja2
+MarkupSafe
+multidict
+propcache
+pycparser
+Werkzeug
+yarl
+yt-dlp
