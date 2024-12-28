@@ -12,7 +12,10 @@ def run_bot():
     client = discord.Client(intents=intents)
     
     voice_clients = {}
-    yt_dl_options = {"format": "bestaudio/best"}
+    yt_dl_options = {
+    'format': 'bestaudio/best',
+    'cookies': 'cookies.txt',
+    }
     ytdl = yt_dlp.YoutubeDL(yt_dl_options)
     
     ffmpeg = {'options': '-vn'}
