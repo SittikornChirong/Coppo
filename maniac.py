@@ -138,6 +138,7 @@ def run_bot():
             embed.add_field(name="?stop", value="Stop the music and disconnect", inline=False)
             embed.add_field(name="?queue", value="Show the current song queue", inline=False)
             embed.add_field(name="?help", value="Show this help message", inline=False)
+            embed.add_field(name="?loop", value="Enable or disable looping the current song", inline=False)
 
             await message.channel.send(embed=embed)
             
