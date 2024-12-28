@@ -1,0 +1,2 @@
+# Coppo
+Discord Bot
