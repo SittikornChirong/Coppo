@@ -1,5 +1,5 @@
 from flask import Flask
-from threading import Thread
+import threading
 
 app = Flask('')
 
@@ -8,8 +8,8 @@ def home():
     return "Server is running!"
 
 def run():
-  app.run(host='0.0.0.0',port=5000)
+    app.run(host='0.0.0.0', port=8080)
 
-def server_on():
-    t = Thread(target=run)
+def keep_alive():
+    t = threading.Thread(target=run)
     t.start()

@@ -40,7 +40,7 @@ def run_bot():
                 voice_clients[message.guild.id] = voice_client
                 
                 # ปิดหูฟังตัวเอง (deaf)
-                await voice_client.guild.me.edit(deaf=True)
+                await voice_client.guild.me.edit(deafen=True)
 
             except Exception as e:
                 print(f"Error connecting to voice channel: {e}")
